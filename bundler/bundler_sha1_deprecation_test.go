@@ -7,12 +7,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudflare/cfssl/config"
-	"github.com/cloudflare/cfssl/errors"
-	"github.com/cloudflare/cfssl/helpers"
-	"github.com/cloudflare/cfssl/signer"
-	"github.com/cloudflare/cfssl/signer/local"
-	"github.com/cloudflare/cfssl/ubiquity"
+	"github.com/orbli/cfssl/config"
+	"github.com/orbli/cfssl/errors"
+	"github.com/orbli/cfssl/helpers"
+	"github.com/orbli/cfssl/signer"
+	"github.com/orbli/cfssl/signer/local"
+	"github.com/orbli/cfssl/ubiquity"
 )
 
 const (

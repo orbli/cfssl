@@ -9,11 +9,11 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/cloudflare/cfssl/api"
-	"github.com/cloudflare/cfssl/certdb"
-	"github.com/cloudflare/cfssl/errors"
-	"github.com/cloudflare/cfssl/helpers"
-	"github.com/cloudflare/cfssl/ocsp"
+	"github.com/orbli/cfssl/api"
+	"github.com/orbli/cfssl/certdb"
+	"github.com/orbli/cfssl/errors"
+	"github.com/orbli/cfssl/helpers"
+	"github.com/orbli/cfssl/ocsp"
 
 	"encoding/base64"
 
@@ -21,7 +21,7 @@ import (
 )
 
 // This is patterned on
-// https://github.com/cloudflare/cfssl/blob/master/api/revoke/revoke.go. This
+// https://github.com/orbli/cfssl/blob/master/api/revoke/revoke.go. This
 // file defines an HTTP endpoint handler that accepts certificates and
 // inserts them into a certdb, optionally also creating an OCSP
 // response for them. If so, it will also return the OCSP response as

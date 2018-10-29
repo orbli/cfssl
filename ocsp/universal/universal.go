@@ -1,8 +1,8 @@
 package universal
 
 import (
-	"github.com/cloudflare/cfssl/ocsp"
-	ocspConfig "github.com/cloudflare/cfssl/ocsp/config"
+	"github.com/orbli/cfssl/ocsp"
+	ocspConfig "github.com/orbli/cfssl/ocsp/config"
 )
 
 // NewSignerFromConfig generates a new OCSP signer from a config object.

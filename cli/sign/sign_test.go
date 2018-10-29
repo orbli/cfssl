@@ -3,9 +3,9 @@ package sign
 import (
 	"testing"
 
-	"github.com/cloudflare/cfssl/certdb/sql"
-	"github.com/cloudflare/cfssl/certdb/testdb"
-	"github.com/cloudflare/cfssl/cli"
+	"github.com/orbli/cfssl/certdb/sql"
+	"github.com/orbli/cfssl/certdb/testdb"
+	"github.com/orbli/cfssl/cli"
 )
 
 func TestSignFromConfig(t *testing.T) {

@@ -3,7 +3,7 @@ package printdefaults
 import (
 	"fmt"
 
-	"github.com/cloudflare/cfssl/cli"
+	"github.com/orbli/cfssl/cli"
 )
 
 var printDefaultsUsage = `cfssl print-defaults -- print default configurations that can be used as a template

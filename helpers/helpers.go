@@ -26,10 +26,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cloudflare/cfssl/crypto/pkcs7"
-	cferr "github.com/cloudflare/cfssl/errors"
-	"github.com/cloudflare/cfssl/helpers/derhelpers"
-	"github.com/cloudflare/cfssl/log"
+	"github.com/orbli/cfssl/crypto/pkcs7"
+	cferr "github.com/orbli/cfssl/errors"
+	"github.com/orbli/cfssl/helpers/derhelpers"
+	"github.com/orbli/cfssl/log"
 	"golang.org/x/crypto/pkcs12"
 )
 

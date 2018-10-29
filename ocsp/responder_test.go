@@ -10,10 +10,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudflare/cfssl/certdb"
-	"github.com/cloudflare/cfssl/certdb/sql"
-	"github.com/cloudflare/cfssl/certdb/testdb"
-	"github.com/cloudflare/cfssl/helpers"
+	"github.com/orbli/cfssl/certdb"
+	"github.com/orbli/cfssl/certdb/sql"
+	"github.com/orbli/cfssl/certdb/testdb"
+	"github.com/orbli/cfssl/helpers"
 
 	"github.com/jmhodges/clock"
 	goocsp "golang.org/x/crypto/ocsp"

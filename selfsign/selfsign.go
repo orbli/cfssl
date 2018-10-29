@@ -15,9 +15,9 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/cloudflare/cfssl/config"
-	cferr "github.com/cloudflare/cfssl/errors"
-	"github.com/cloudflare/cfssl/signer"
+	"github.com/orbli/cfssl/config"
+	cferr "github.com/orbli/cfssl/errors"
+	"github.com/orbli/cfssl/signer"
 )
 
 const threeMonths = 2190 * time.Hour

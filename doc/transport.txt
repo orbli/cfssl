@@ -63,7 +63,7 @@ In general, the transport package is build around the `core.Identity`
 type. This contains several top-level fields:
 
 + `Request` contains a `CertificateRequest` from the CFSSL csr package
-  (e.g. https://godoc.org/github.com/cloudflare/cfssl/csr#CertificateRequest).
+  (e.g. https://godoc.org/github.com/orbli/cfssl/csr#CertificateRequest).
   The JSON tag for this field is "request".
 + `Profiles` contains profiles for certificate and key providers. The
   JSON tag for this field is "profiles".

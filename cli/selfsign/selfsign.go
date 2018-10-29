@@ -8,12 +8,12 @@ import (
 	"os"
 	"time"
 
-	"github.com/cloudflare/cfssl/cli"
-	"github.com/cloudflare/cfssl/cli/genkey"
-	"github.com/cloudflare/cfssl/config"
-	"github.com/cloudflare/cfssl/csr"
-	"github.com/cloudflare/cfssl/helpers"
-	"github.com/cloudflare/cfssl/selfsign"
+	"github.com/orbli/cfssl/cli"
+	"github.com/orbli/cfssl/cli/genkey"
+	"github.com/orbli/cfssl/config"
+	"github.com/orbli/cfssl/csr"
+	"github.com/orbli/cfssl/helpers"
+	"github.com/orbli/cfssl/selfsign"
 )
 
 var selfSignUsageText = `cfssl selfsign -- generate a new self-signed key and signed certificate

@@ -9,10 +9,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cloudflare/cfssl/api"
-	"github.com/cloudflare/cfssl/auth"
-	"github.com/cloudflare/cfssl/config"
-	"github.com/cloudflare/cfssl/signer"
+	"github.com/orbli/cfssl/api"
+	"github.com/orbli/cfssl/auth"
+	"github.com/orbli/cfssl/config"
+	"github.com/orbli/cfssl/signer"
 )
 
 const (

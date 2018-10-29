@@ -7,7 +7,7 @@ import (
 	"io"
 	"net"
 
-	"github.com/cloudflare/cfssl/scan/crypto/tls"
+	"github.com/orbli/cfssl/scan/crypto/tls"
 )
 
 // Connectivity contains scanners testing basic connectivity to the host

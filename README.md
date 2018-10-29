@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/cloudflare/cfssl.svg?branch=master)](https://travis-ci.org/cloudflare/cfssl)
 [![Coverage Status](http://codecov.io/github/cloudflare/cfssl/coverage.svg?branch=master)](http://codecov.io/github/cloudflare/cfssl?branch=master)
-[![GoDoc](https://godoc.org/github.com/cloudflare/cfssl?status.svg)](https://godoc.org/github.com/cloudflare/cfssl)
+[![GoDoc](https://godoc.org/github.com/orbli/cfssl?status.svg)](https://godoc.org/github.com/orbli/cfssl)
 
 ## CloudFlare's PKI/TLS toolkit
 
@@ -38,7 +38,7 @@ Installation requires a
 properly set `GOPATH`.
 
 ```
-$ go get -u github.com/cloudflare/cfssl/cmd/cfssl
+$ go get -u github.com/orbli/cfssl/cmd/cfssl
 ```
 
 will download and build the CFSSL tool, installing it in
@@ -48,7 +48,7 @@ To install any of the other utility programs that are
 in this repo (for instance `cfssljson` in this case):
 
 ```
-$ go get -u github.com/cloudflare/cfssl/cmd/cfssljson
+$ go get -u github.com/orbli/cfssl/cmd/cfssljson
 ```
 
 This will download and build the CFSSLJSON tool, installing it in
@@ -57,7 +57,7 @@ This will download and build the CFSSLJSON tool, installing it in
 And to simply install __all__ of the programs in this repo:
 
 ```
-$ go get -u github.com/cloudflare/cfssl/cmd/...
+$ go get -u github.com/orbli/cfssl/cmd/...
 ```
 
 This will download, build, and install all of the utility programs
@@ -142,7 +142,7 @@ pools. In addition, platform metadata is specified through `-metadata`.
 The bundle files, metadata file (and auxiliary files) can be
 found at:
 
-        https://github.com/cloudflare/cfssl_trust
+        https://github.com/orbli/cfssl_trust
 
 Specify PEM-encoded client certificate and key through `-cert` and
 `-key` respectively. If key is specified, the bundle will be built
@@ -327,7 +327,7 @@ for configuring and running the CA.
 verifying certificates. It can be installed with
 
 ```
-go get -u github.com/cloudflare/cfssl/cmd/mkbundle
+go get -u github.com/orbli/cfssl/cmd/mkbundle
 ```
 
 It takes a collection of certificates, checks for CRL revocation (OCSP

@@ -5,7 +5,7 @@ package sql
 import (
 	"testing"
 
-	"github.com/cloudflare/cfssl/certdb/testdb"
+	"github.com/orbli/cfssl/certdb/testdb"
 )
 
 func TestMySQL(t *testing.T) {

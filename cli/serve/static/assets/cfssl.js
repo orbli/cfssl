@@ -122,7 +122,7 @@
             ]),
             m('ul.nav.navbar-nav.navbar-right', [
               m('li', m('a[href="https://pkg.cfssl.org"]', Tformat('common.packages'))),
-              m('li', m('a[href="https://github.com/cloudflare/cfssl"]', 'GitHub')),
+              m('li', m('a[href="https://github.com/orbli/cfssl"]', 'GitHub')),
             ])
           ])
         ])
@@ -139,7 +139,7 @@
       }, [
         m('p', [
           'Code licensed under ',
-          m('a[href="https://github.com/cloudflare/cfssl/blob/master/LICENSE"]', 'BSD-2-Clause'),
+          m('a[href="https://github.com/orbli/cfssl/blob/master/LICENSE"]', 'BSD-2-Clause'),
           '.'
         ])
       ])
@@ -230,7 +230,7 @@
           'See ',
           m('a[href="https://blog.cloudflare.com/introducing-cfssl"]', 'blog post'),
           ' or ',
-          m('a[href="https://github.com/cloudflare/cfssl"]', 'contribute on GitHub'),
+          m('a[href="https://github.com/orbli/cfssl"]', 'contribute on GitHub'),
           '.'
         ])
       ]);

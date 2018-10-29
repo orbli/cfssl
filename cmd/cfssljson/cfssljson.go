@@ -10,7 +10,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/cloudflare/cfssl/cli/version"
+	"github.com/orbli/cfssl/cli/version"
 )
 
 func readFile(filespec string) ([]byte, error) {

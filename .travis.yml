@@ -27,7 +27,7 @@ before_install:
   # multiple packages within CFSSL, Travis won't pass for the branch on their
   # own repo. To fix that, we move the directory
   - mkdir -p $TRAVIS_BUILD_DIR $GOPATH/src/github.com/cloudflare
-  - test ! -d $GOPATH/src/github.com/cloudflare/cfssl && mv $TRAVIS_BUILD_DIR $GOPATH/src/github.com/cloudflare/cfssl || true
+  - test ! -d $GOPATH/src/github.com/orbli/cfssl && mv $TRAVIS_BUILD_DIR $GOPATH/src/github.com/orbli/cfssl || true
 
 # Only build pull requests, pushes to the master branch, and branches
 # starting with `test-`. This is a convenient way to push branches to
@@ -46,9 +46,9 @@ before_script:
   - go install ./vendor/bitbucket.org/liamstask/goose/cmd/goose
   - if [[ $(uname -s) == 'Linux' ]]; then
       psql -c 'create database certdb_development;' -U postgres;
-      goose -path $GOPATH/src/github.com/cloudflare/cfssl/certdb/pg up;
+      goose -path $GOPATH/src/github.com/orbli/cfssl/certdb/pg up;
       mysql -e 'create database certdb_development;' -u root;
-      goose -path $GOPATH/src/github.com/cloudflare/cfssl/certdb/mysql up;
+      goose -path $GOPATH/src/github.com/orbli/cfssl/certdb/mysql up;
     fi
 script:
   - ./test.sh

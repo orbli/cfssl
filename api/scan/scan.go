@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/cloudflare/cfssl/api"
-	"github.com/cloudflare/cfssl/errors"
-	"github.com/cloudflare/cfssl/log"
-	"github.com/cloudflare/cfssl/scan"
+	"github.com/orbli/cfssl/api"
+	"github.com/orbli/cfssl/errors"
+	"github.com/orbli/cfssl/log"
+	"github.com/orbli/cfssl/scan"
 )
 
 // scanHandler is an HTTP handler that accepts GET parameters for host (required)

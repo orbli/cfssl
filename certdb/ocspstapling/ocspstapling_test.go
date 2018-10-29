@@ -12,10 +12,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/cloudflare/cfssl/certdb"
-	"github.com/cloudflare/cfssl/certdb/sql"
-	"github.com/cloudflare/cfssl/certdb/testdb"
-	"github.com/cloudflare/cfssl/helpers"
+	"github.com/orbli/cfssl/certdb"
+	"github.com/orbli/cfssl/certdb/sql"
+	"github.com/orbli/cfssl/certdb/testdb"
+	"github.com/orbli/cfssl/helpers"
 	"github.com/google/certificate-transparency-go"
 	"golang.org/x/crypto/ocsp"
 )
@@ -47,7 +47,7 @@ func TestStapleSCTList(t *testing.T) {
 
 	// testDB is an empty DB of OCSP responses.
 	gopath := os.Getenv("GOPATH")
-	dbPath := gopath + "/src/github.com/cloudflare/cfssl/certdb/testdb/certstore_development.db"
+	dbPath := gopath + "/src/github.com/orbli/cfssl/certdb/testdb/certstore_development.db"
 	testDB := sql.NewAccessor(testdb.SQLiteDB(dbPath))
 
 	// Next, we store the OCSP response in the DB.

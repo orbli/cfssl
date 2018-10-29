@@ -9,9 +9,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cloudflare/cfssl/errors"
-	"github.com/cloudflare/cfssl/helpers"
-	"github.com/cloudflare/cfssl/ubiquity"
+	"github.com/orbli/cfssl/errors"
+	"github.com/orbli/cfssl/helpers"
+	"github.com/orbli/cfssl/ubiquity"
 )
 
 const (
